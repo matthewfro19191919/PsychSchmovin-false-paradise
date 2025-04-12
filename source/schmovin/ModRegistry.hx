@@ -33,6 +33,15 @@ import schmovin.note_mods.NoteModTornado;
 import schmovin.note_mods.NoteModTranslate;
 import schmovin.note_mods.NoteModZigzag;
 
+import false_paradise.note_mods.NoteModArrowShape;
+import false_paradise.note_mods.NoteModCounterClockwise;
+import false_paradise.note_mods.NoteModDistortWiggle;
+import false_paradise.note_mods.NoteModEyeShape;
+import false_paradise.note_mods.NoteModReceptorScroll;
+import false_paradise.note_mods.NoteModSpiral;
+import false_paradise.note_mods.NoteModVibrate;
+import false_paradise.note_mods.NoteModWiggle;
+
 class ModRegistry
 {
 	private var _modList:SchmovinNoteModList;
