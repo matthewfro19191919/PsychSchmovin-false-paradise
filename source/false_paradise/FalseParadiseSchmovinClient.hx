@@ -734,7 +734,7 @@ class FalseParadiseSchmovinClient extends SchmovinClientWithDebugger
 
 		// "Inspired" by UKSRT9 Stage 4a (https://www.youtube.com/watch?v=F69zEKYVLHE&t=42s)
 		var solidWhite = FlxColor.WHITE;
-		var solidWhiteShaderFilter = new ShaderFilter(solidWhite);
+		var solidWhiteShaderFilter = new FlxColor.WHITE;
 
 		s([66, 1], 1, 'beat');
 
