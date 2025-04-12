@@ -162,7 +162,6 @@ class FalseParadiseSchmovinClient extends SchmovinClientWithDebugger
 			t([122, 1], _state.scoreTxt, 8, FlxEase.linear, {alpha: 0});
 			t([122, 1], _state.iconP2, 8, FlxEase.linear, {alpha: 0});
 			t([122, 1], _state.healthBar, 8, FlxEase.linear, {alpha: 0});
-			t([122, 1], _state.healthBarBG, 8, FlxEase.linear, {alpha: 0});
 		});
 		t([122, 1], black, 8, FlxEase.linear, {alpha: 1}, (t) ->
 		{
