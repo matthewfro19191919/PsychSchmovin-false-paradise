@@ -50,10 +50,6 @@ class FalseParadiseMod
 
 	function shouldRun():Bool
 	{
-		if (Type.getClass(FlxG.state) == PlayState)
-		{
-			return PlayState.curMod == this && PlayState.isModdedStage;
-		}
 		return false;
 	}
 
@@ -67,7 +63,6 @@ class FalseParadiseMod
 					var instance:SchmovinInstance = cast args[0];
 					var cli = new FalseParadiseSchmovinClient(instance, args[1], args[2], _inst);
 					instance.setClient(cli);
-					sendCrossModCall('SchmovinPrepareDebug', [cli]);
 			}
 		}
 	}
