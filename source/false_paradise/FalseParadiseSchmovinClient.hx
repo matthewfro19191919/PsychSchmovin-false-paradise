@@ -26,7 +26,6 @@ import flixel.graphics.frames.FlxAtlasFrames;
 import flixel.group.FlxGroup.FlxTypedGroup;
 import flixel.tweens.FlxEase;
 import flixel.util.FlxColor;
-import groovin.shaders.GroovinShaders.SolidColorEffect;
 import lime.math.Vector2;
 import lime.math.Vector4;
 import openfl.filters.ShaderFilter;
@@ -734,7 +733,7 @@ class FalseParadiseSchmovinClient extends SchmovinClientWithDebugger
 		}
 
 		// "Inspired" by UKSRT9 Stage 4a (https://www.youtube.com/watch?v=F69zEKYVLHE&t=42s)
-		var solidWhite = new SolidColorEffect(FlxColor.WHITE);
+		var solidWhite = FlxColor.WHITE;
 		var solidWhiteShaderFilter = new ShaderFilter(solidWhite.shader);
 
 		s([66, 1], 1, 'beat');
