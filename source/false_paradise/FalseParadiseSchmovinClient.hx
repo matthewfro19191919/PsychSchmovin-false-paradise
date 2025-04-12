@@ -747,7 +747,7 @@ class FalseParadiseSchmovinClient extends SchmovinClientWithDebugger
 				f(barstep, () ->
 				{
 					if ((alt + 1) % 2 == 1)
-						_instance.camNotes.setFilters([solidWhiteShaderFilter]);
+						_instance.camNotes.setFilters([null]);
 					else
 						_instance.camNotes.setFilters(null);
 				});
