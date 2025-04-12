@@ -21,6 +21,10 @@ import schmovin.SchmovinRenderers.SchmovinTapNoteRenderer;
 import schmovin.shaders.PlaneRaymarcher;
 import schmovin.util.FlxCameraCopy;
 
+import false_paradise.FalseParadiseMod;
+import false_paradise.FalseParadiseSchmovinClient;
+import false_paradise.FalseParadiseShoutoutsState;
+
 using StringTools;
 
 class SchmovinInstance
