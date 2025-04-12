@@ -41,6 +41,10 @@ import false_paradise.note_mods.NoteModReceptorScroll;
 import false_paradise.note_mods.NoteModSpiral;
 import false_paradise.note_mods.NoteModVibrate;
 import false_paradise.note_mods.NoteModWiggle;
+import false_paradise.FalseParadiseMod;
+import false_paradise.FalseParadiseSchmovinClient;
+import false_paradise.FalseParadiseShoutoutsState;
+
 
 class ModRegistry
 {
