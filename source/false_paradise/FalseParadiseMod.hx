@@ -34,7 +34,7 @@ class FalseParadiseMod
 
 	public static function GetAssetPath(s:String)
 	{
-		return 'mod:mod_assets/FalseParadiseMod/weeks/${s}';
+		return 'mod:mods/FalseParadiseMod/images';
 	}
 
 	function addMissDamage(state:PlayState, causedByLateness:Bool):Float
@@ -50,7 +50,7 @@ class FalseParadiseMod
 
 	function shouldRun():Bool
 	{
-		return false;
+		return true;
 	}
 
 	function receiveCrossModCall(command:String, args:Array<Dynamic>)
