@@ -15,6 +15,7 @@ import schmovin.ModRegistry;
 import schmovin.SchmovinTimeline;
 import schmovin.note_mods.ISchmovinNoteMod;
 import schmovin.note_mods.NoteModBase;
+import false_paradise.note_mods.*;
 
 using StringTools;
 using schmovin.SchmovinUtil;
