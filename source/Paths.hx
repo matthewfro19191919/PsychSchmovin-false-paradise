@@ -404,7 +404,7 @@ class Paths
 	}
 
 	inline static public function modsJson(key:String) {
-		return modFolders('data/' + key + '.json');
+		return modFolders('data/${modFolders}/' + key + '.json');
 	}
 
 	inline static public function modsVideo(key:String) {
