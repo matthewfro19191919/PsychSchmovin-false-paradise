@@ -385,7 +385,7 @@ class Paths
 		#else
 		{
 			var folder:String = '';
-			if(path == 'songs') folder = 'songs:';
+			if(path == 'songs${modFolders}/') folder = 'songs:';
 
 			currentTrackedSounds.set(gottenPath, OpenFlAssets.getSound(folder + getPath('$path/$key.$SOUND_EXT', SOUND, library)));
 		}
