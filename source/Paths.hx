@@ -385,7 +385,7 @@ class Paths
 		#else
 		{
 			var folder:String = '';
-			if(path == 'songs${modFolders}/') folder = 'songs:';
+			if(path == 'songs') folder = 'songs:';
 
 			currentTrackedSounds.set(gottenPath, OpenFlAssets.getSound(folder + getPath('$path/$key.$SOUND_EXT', SOUND, library)));
 		}
@@ -396,7 +396,7 @@ class Paths
 
 	#if MODS_ALLOWED
 	inline static public function mods(key:String = '') {
-		return 'mod_assets/' + key;
+		return 'mods/' + key;
 	}
 
 	inline static public function modsFont(key:String) {
@@ -404,7 +404,7 @@ class Paths
 	}
 
 	inline static public function modsJson(key:String) {
-		return modFolders('data/${modFolders}/' + key + '.json');
+		return modFolders('data/' + key + '.json');
 	}
 
 	inline static public function modsVideo(key:String) {
@@ -427,6 +427,8 @@ class Paths
 		return modFolders('images/' + key + '.txt');
 	}
 
+	/* Goes unused for now
+
 	inline static public function modsShaderFragment(key:String, ?library:String)
 	{
 		return modFolders('shaders/'+key+'.frag');
@@ -437,7 +439,7 @@ class Paths
 	}
 	inline static public function modsAchievements(key:String) {
 		return modFolders('achievements/' + key + '.json');
-	}
+	}*/
 
 	static public function modFolders(key:String) {
 		if(currentModDirectory != null && currentModDirectory.length > 0) {
